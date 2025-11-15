@@ -1,0 +1,45 @@
+// Generate distinct colors based on species
+export const getSpeciesColor = (speciesName) => {
+  const colors = {
+    'Human': 'bg-blue-500',
+    'Droid': 'bg-gray-500',
+    'Wookiee': 'bg-amber-700',
+    'Rodian': 'bg-green-600',
+    'Hutt': 'bg-yellow-600',
+    'Yoda\'s species': 'bg-emerald-500',
+    'Trandoshan': 'bg-lime-700',
+    'Mon Calamari': 'bg-cyan-600',
+    'Ewok': 'bg-orange-600',
+    'Sullustan': 'bg-rose-500',
+    'Neimodian': 'bg-teal-600',
+    'Gungan': 'bg-purple-500',
+    'Toydarian': 'bg-indigo-500',
+    'Dug': 'bg-pink-600',
+    'Twi\'lek': 'bg-violet-500',
+    'Aleena': 'bg-fuchsia-500',
+    'Vulptereen': 'bg-red-600',
+    'Xexto': 'bg-sky-500',
+    'Toong': 'bg-slate-600',
+    'Cerean': 'bg-stone-600',
+    'Nautolan': 'bg-emerald-600',
+    'Zabrak': 'bg-red-700',
+    'Tholothian': 'bg-blue-700',
+    'Iktotchi': 'bg-orange-700',
+    'Quermian': 'bg-lime-600',
+    'Kel Dor': 'bg-amber-600',
+    'Chagrian': 'bg-cyan-700',
+    'Geonosian': 'bg-yellow-700',
+    'Mirialan': 'bg-green-700',
+    'Clawdite': 'bg-purple-700',
+    'Besalisk': 'bg-blue-800',
+    'Kaminoan': 'bg-gray-400',
+    'Skakoan': 'bg-indigo-700',
+    'Muun': 'bg-slate-500',
+    'Togruta': 'bg-orange-500',
+    'Kaleesh': 'bg-red-800',
+    'Pau\'an': 'bg-gray-700',
+    'default': 'bg-slate-600'
+  };
+  
+  return colors[speciesName] || colors.default;
+};
