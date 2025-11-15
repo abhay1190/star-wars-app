@@ -101,22 +101,8 @@ The authentication includes:
 - Grid layout adapts to screen size
 - Touch-friendly interface
 
-## 🧪 Testing
-
-The project includes integration tests for the character modal:
-
-```bash
-npm test
-```
-
-Test coverage includes:
-- Modal opening on character card click
-- Correct character details displayed
-- Homeworld information fetching
-
 ## 📁 Project Structure
 
-```
 star-wars-app/
 ├── src/
 │   ├── components/
@@ -146,36 +132,3 @@ star-wars-app/
 └── package.json                   # Dependencies and scripts
 ```
 
-## 🎯 Development Guidelines Followed
-
-- ✅ React functional components and hooks
-- ✅ Small, modular, and reusable components
-- ✅ Clear prop types with JSDoc comments
-- ✅ Clean folder structure
-- ✅ Meaningful variable names
-- ✅ Graceful handling of loading, empty, and error states
-- ✅ Responsive design with Tailwind CSS
-- ✅ Integration testing with React Testing Library
-
-## 🌐 API Reference
-
-This app uses the [SWAPI (Star Wars API)](https://swapi.dev/):
-- `/api/people/` - Get characters
-- `/api/planets/` - Get planet details
-- `/api/species/` - Get species details
-
-## 🎨 Design Features
-
-- Animated starfield background
-- Gradient color schemes
-- Smooth transitions and hover effects
-- Star Wars themed UI
-- Accessible and user-friendly interface
-
-## 📝 License
-
-This project is created as a take-home assignment.
-
----
-
-**May the Force be with you!** ⭐
